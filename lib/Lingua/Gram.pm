@@ -13,7 +13,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 DESCRIPTION
 
@@ -25,7 +25,7 @@ This module will use Perl's regular unicode expression to cut string, and calcul
 
     my $g = Lingua::Gram->new($string);
 
-    my @unigramWords = $g->gram(1)
+    my @unigramWords = $g->gram(1);
     # OR
     my @unigramWords = $g->unigram;
 
