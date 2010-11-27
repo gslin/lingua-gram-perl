@@ -1,10 +1,11 @@
 Build.PL
 Changes
+lib/Lingua/Gram.pm
+Makefile.PL
 MANIFEST
 META.yml
-Makefile.PL
 README
-lib/Lingua/Gram.pm
+SIGNATURE
 t/chinese-complexcase.t
 t/chinese-simplecase.t
 t/clean.t
