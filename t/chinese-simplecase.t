@@ -1,7 +1,7 @@
 #!perl -T
 
 use Lingua::Gram;
-use Test::More tests;
+use Test::More;
 use utf8;
 
 my $str = '中文測試';
