@@ -7,14 +7,6 @@ use strict;
 
 Lingua::Gram - N-Gram Alrogithm for Unicode String
 
-=head1 VERSION
-
-Version 0.02
-
-=cut
-
-our $VERSION = '0.02';
-
 =head1 DESCRIPTION
 
 This module will use Perl's regular unicode expression to cut string, and calculate the N-Gram algorithm.
@@ -137,13 +129,11 @@ Gea-Suan Lin, C<< <gslin at gslin.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2010 Gea-Suan Lin.
+Copyright 2010, 2011 Gea-Suan Lin.
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
+This software is released under 3-clause BSD license. See
+L<http://www.opensource.org/licenses/bsd-license.php> for more
+information.
 
 =cut
 
