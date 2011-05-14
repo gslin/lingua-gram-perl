@@ -52,9 +52,9 @@ sub _cut {
     $self->{units} = [];
 
     foreach (split /(?:\p{C}|\p{M}|\p{P}|\{S}|\p{Z})+/, $str) {
-	while (/([\p{Latin}\d]+|\S)/go) {
-	    push @{$self->{units}}, $1;
-	}
+        while (/([\p{Latin}\d]+|\S)/go) {
+            push @{$self->{units}}, $1;
+        }
     }
 }
 
@@ -76,8 +76,8 @@ sub bigram {
     my @result;
 
     for (my $i = 0; $i < $num; $i++) {
-	my $item = $units[$i] . $units[$i + 1];
-	push @result, $item;
+        my $item = $units[$i] . $units[$i + 1];
+        push @result, $item;
     }
 
     return @result;
@@ -101,8 +101,8 @@ sub gram {
     my @result;
 
     for (my $i = 0; $i < $num; $i++) {
-	my $item = join '', @units[$i .. $i + $c - 1];
-	push @result, $item;
+        my $item = join '', @units[$i .. $i + $c - 1];
+        push @result, $item;
     }
 
     return @result;
