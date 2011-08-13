@@ -51,7 +51,7 @@ sub _cut {
 
     $self->{units} = [];
 
-    foreach (split /(?:\p{C}|\p{M}|\p{P}|\{S}|\p{Z})+/, $str) {
+    foreach (split /(?:\p{C}|\p{M}|\p{P}|\p{S}|\p{Z})+/, $str) {
         while (/([\p{Latin}\d]+|\S)/go) {
             push @{$self->{units}}, $1;
         }
