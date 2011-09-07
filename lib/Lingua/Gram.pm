@@ -40,12 +40,12 @@ sub new {
     my $str = shift;
 
     $self = bless {}, $self;
-    $self->_cut($str);
+    $self->_init($str);
 
     return $self;
 }
 
-sub _cut {
+sub _init {
     my $self = shift;
     my $str = shift;
 
